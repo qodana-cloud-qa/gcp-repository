@@ -1,5 +1,6 @@
-# :castle: Global Configuration repository 
+# 🏰 Global Configuration repository examples
 
+Requirements (the needs/goals which it should achieve)
 - Multiple Global configurations
 - One “Global Configuration” is an organization-level entity
 - “Global Configuration” has multiple projects linked to it, specified in QDCL UI
