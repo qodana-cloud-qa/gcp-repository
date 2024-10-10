@@ -1,31 +1,11 @@
-# sa/global-project-configuration-design
-
-
-
-## Getting Started
-
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.team/sa/global-project-configuration-design.git
-
-HTTPS clone URL: https://git.jetbrains.team/sa/global-project-configuration-design.git
-
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a production system.
-
-## Resources
-
-Add links to external resources for this project, such as CI server, bug tracker, etc.
+- Multiple Global configurations
+- One “Global Configuration” is an organization-level entity
+- “Global Configuration” has multiple projects linked to it, specified in QDCL UI
+- There could be multiple “global configuration” repositories
+- Repository structure is independent of “weak server” or “strong server”
+- One “Global configuration” should be able to inherit some properties from the other configuration
+- Example in `/sample-1-yaml`
+    - `/global-base` (qodana.yaml with quality gates, base flexinspect, base profiles)
+    - `/intellij-products` (inherit profiles and qodana.yaml from global-base)
+    - `/ai-products` (inherit profiles and qodana.yaml from global-base)
+    - `global-configuration.yaml` defines the list of configurations
