@@ -1,3 +1,5 @@
+# :castle: Global Configuration repository 
+
 - Multiple Global configurations
 - One “Global Configuration” is an organization-level entity
 - “Global Configuration” has multiple projects linked to it, specified in QDCL UI
