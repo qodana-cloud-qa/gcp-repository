@@ -1,1 +1,1 @@
-# somehow reference the global-base
+# inherits from global-base qodana.yaml (inheritance defined in global-configuration.yaml)

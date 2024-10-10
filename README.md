@@ -9,6 +9,6 @@ Requirements (the needs/goals which it should achieve)
 - One “Global configuration” should be able to inherit some properties from the other configuration
 - Example in `/sample-1-yaml`
     - `/global-base` (qodana.yaml with quality gates, base flexinspect, base profiles)
-    - `/intellij-products` (inherit profiles and qodana.yaml from global-base)
-    - `/ai-products` (inherit profiles and qodana.yaml from global-base)
+    - `/intellij-products` (inherit profiles and qodana.yaml from global-base, include flexinspect from base)
+    - `/ai-products` (inherit profiles and qodana.yaml from global-base, include flexinspect from base)
     - `global-configuration.yaml` defines the list of configurations
