@@ -1,0 +1,5 @@
+base: qodana.recommended
+
+inspections:
+    - id: "HardcodedPasswords"
+      enabled: true
