@@ -1,0 +1,28 @@
+flexinspect:
+    - .flexinspect
+
+plugins:
+    - company-plugin
+
+properties:
+    - companyPluginIntProperty: 10
+
+
+failureConditions:
+    severityThresholds:
+        critical: 0
+
+profile:
+    inspections:
+        - group: Security
+          enabled: true
+
+        - inspection: DependencyAnalysis
+          enabled: true
+          options:
+              usePackageSearch: true
+
+        - inspection: HardcodedPasswords
+          enabled: true
+          options:
+              reportSuspisiousVariableNames: true

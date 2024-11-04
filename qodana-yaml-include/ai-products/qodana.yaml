@@ -1,0 +1,19 @@
+include: ../base/qodana.yaml
+
+plugins:
+    - aiDepartmentPlugin
+
+properties:
+    - ai.plugin.enabled: true
+
+failureConditions:
+    severityThresholds:
+        any: 0
+
+profile:
+    inspections:
+        - inspection: AiInspection
+          enabled: true
+
+        - group: "category:JavaScript"
+          enabled: true

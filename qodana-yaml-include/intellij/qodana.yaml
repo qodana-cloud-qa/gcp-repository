@@ -1,0 +1,12 @@
+include: ../base/qodana.yaml
+
+flexinspect:
+    - .flexinspect
+
+profile:
+    inspections:
+        - group: "category:Java/Probable bugs"
+          enabled: true
+
+        - inspection: RedundantIf
+          enabled: true
