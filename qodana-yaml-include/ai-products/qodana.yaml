@@ -5,7 +5,7 @@ plugins:
     - aiDepartmentPlugin
 
 properties:
-    - ai.plugin.enabled: true
+    ai.plugin.enabled: true
 
 failureConditions:
     severityThresholds:

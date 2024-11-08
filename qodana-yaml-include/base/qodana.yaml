@@ -5,8 +5,7 @@ plugins:
     - company-plugin
 
 properties:
-    - companyPluginIntProperty: 10
-
+    companyPluginIntProperty: 10
 
 failureConditions:
     severityThresholds:
