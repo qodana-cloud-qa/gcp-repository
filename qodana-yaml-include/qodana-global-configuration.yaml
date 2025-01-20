@@ -1,10 +1,11 @@
 configurations:
-    - name: IntelliJ
+    - id: intellij
+      name: IntelliJ
       description: Configurations used for IntelliJ platform based projects
-      content:
-        qodanaYaml: intellij/qodana.yaml
+      qodanaYaml: intellij/qodana.yaml
 
-    - name: AiPlatform
+    - id: ai_platform
+      name: Ai Platform
       description: Configurations used for AI-platform based projects
-      content:
-        qodanaYaml: ai-products/qodana.yaml
+      qodanaYaml: ai-products/qodana.yaml
+        
