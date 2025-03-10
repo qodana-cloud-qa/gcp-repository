@@ -1,8 +1,5 @@
-flexinspect:
-    - .flexinspect
-
 plugins:
-    - company-plugin
+    - mycompany-plugin
 
 properties:
     companyPluginIntProperty: 10

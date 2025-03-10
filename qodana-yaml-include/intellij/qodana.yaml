@@ -1,9 +1,6 @@
 include:
   - ../base/qodana.yaml
 
-flexinspect:
-    - .flexinspect
-
 profile:
     inspections:
         - group: "category:Java/Probable bugs"
