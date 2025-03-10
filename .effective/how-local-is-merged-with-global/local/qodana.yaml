@@ -1,7 +1,0 @@
-version: 1.0
-
-bootstrap: ./setup.sh
-
-profile:
-    path: local-profile.yaml
-

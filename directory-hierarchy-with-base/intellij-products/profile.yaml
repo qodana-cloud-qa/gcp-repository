@@ -1,3 +1,0 @@
-# reference the profile from global-base
-
-include: ../global-base/analysis-profile.yaml
