@@ -2,7 +2,7 @@ imports:
   - ../base/qodana.yaml
 
 plugins:
-    - aiDepartmentPlugin
+    - id: aiDepartmentPlugin
 
 properties:
     ai.plugin.enabled: true

@@ -1,5 +1,5 @@
 plugins:
-    - mycompany-plugin
+    - id: mycompany-plugin
 
 properties:
     companyPluginIntProperty: 10
