@@ -18,7 +18,6 @@ jobs:
             - name: Run Qodana Configuration Uploader
               env:
                   QODANA_CONFIGURATIONS_TOKEN: ${{ secrets.QODANA_CONFIGURATIONS_TOKEN }}
-                  QODANA_ENDPOINT: 'https://web.cloud.sssa-stgn.aws.intellij.net'
               run: |
                   docker run --rm \
                     -v $(pwd):/workspace \
@@ -26,4 +25,4 @@ jobs:
                     -e QODANA_CONFIGURATIONS_TOKEN=$QODANA_CONFIGURATIONS_TOKEN \
                     jetbrains/qodana-configuration-uploader:latest \
                     --global-configs-file qodana-global-configurations.yaml \
-                    --qodana-host  web.cloud.sssa-stgn.aws.intellij.net
+                    --qodana-host https://web.cloud.sssa-qa.aws.intellij.net
