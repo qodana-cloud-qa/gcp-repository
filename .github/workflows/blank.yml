@@ -17,7 +17,7 @@ jobs:
 
             - name: Run Qodana Configuration Uploader
               env:
-                  QODANA_CONFIGURATIONS_TOKEN: ${{ secrets.QODANA_CONFIGURATIONS_TOKEN }}
+                  QODANA_CONFIGURATIONS_TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdhbml6YXRpb25JZCI6IllEajU2IiwidG9rZW5JZCI6ImdCNm5iIn0.Z4XOgNAXjiLFVykJenRKDvn8oNh8ytu1_iChHlvZ1vs
               run: |
                   docker run --rm \
                     -v $(pwd):/workspace \
